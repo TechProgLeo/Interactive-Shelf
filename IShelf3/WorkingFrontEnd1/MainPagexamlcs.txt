@@ -1,0 +1,110 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Timers; // System.Timers for Timer class
+using Microsoft.Maui.Controls;
+
+namespace IShelf
+{
+    public partial class MainPage : ContentPage
+    {
+        private readonly List<string> allTeas = new List<string>
+        {
+            "Bio Ayurvedische Gewuerze", "Bio Fruechtetee", "Bio Gruener Tee",
+            "Bio Heimische Gartenfruechte", "Bio Kraeutertee", "Darjeeling",
+            "Earl Grey", "Gruener Tee Mango Zitrone", "Gruener Tee Nana Minze", "Tuerkischer Apfel"
+        };
+
+        // Use fully qualified name for the Timer to avoid ambiguity
+        private System.Timers.Timer searchTimer;
+
+        public MainPage()
+        {
+            InitializeComponent();
+            searchTimer = new System.Timers.Timer(300); // Set the delay time to 300 milliseconds
+            searchTimer.Elapsed += OnSearchTimerElapsed;
+        }
+
+        // Navigation to SettingsPage
+        private async void OnSettingsButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SettingsPage());
+        }
+
+        private void OnImageButtonClicked(object sender, EventArgs e)
+        {
+            if (sender is ImageButton button)
+            {
+                DisplayAlert("Button Clicked", $"You clicked: {button.Source}", "OK");
+            }
+        }
+
+        private async void OnBioTeesButtonClicked(object sender, EventArgs e)
+        {
+            string message = "You clicked:\n";
+            string[] bioButtons = {
+                "Bio Ayurvedische Gewuerze", "Bio Fruechtetee", "Bio Gruener Tee",
+                "Bio Heimische Gartenfruechte", "Bio Kraeutertee", "Darjeeling"
+            };
+
+            foreach (var buttonSource in bioButtons)
+            {
+                message += buttonSource + "\n";
+            }
+
+            await DisplayAlert("Bio Tees Button Clicked", message, "OK");
+        }
+
+        private async void OnGreenTeesButtonClicked(object sender, EventArgs e)
+        {
+            string message = "You clicked:\n";
+            string[] greenButtons = {
+                "Bio Gruener Tee", "Gruener Tee Mango Zitrone", "Gruener Tee Nana Minze"
+            };
+
+            foreach (var buttonSource in greenButtons)
+            {
+                message += buttonSource + "\n";
+            }
+
+            await DisplayAlert("Green Tees Button Clicked", message, "OK");
+        }
+
+        // Search functionality with debounce
+        private void OnSearchTextChanged(object sender, TextChangedEventArgs e)
+        {
+            searchTimer.Stop(); // Stop the timer when the text changes
+            searchTimer.Start(); // Start it again to wait for more input
+        }
+
+        private void OnSearchTimerElapsed(object? sender, ElapsedEventArgs e)
+        {
+            // Stop the timer to prevent re-entrance
+            searchTimer.Stop();
+
+            // Invoke the filtering method on the UI thread
+            MainThread.BeginInvokeOnMainThread(() =>
+            {
+                string searchText = searchEntry.Text?.ToLower() ?? "";
+
+                // Filter teas based on the search text
+                var filteredTeas = allTeas.Where(tea => tea.ToLower().Contains(searchText)).ToList();
+
+                // Update the ListView with filtered teas
+                teaListView.ItemsSource = filteredTeas;
+                teaListView.IsVisible = filteredTeas.Any(); // Show the ListView if there are results
+            });
+        }
+
+        private void OnTeaItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            if (e.Item is string selectedTea)
+            {
+                DisplayAlert("Tea Selected", $"You selected: {selectedTea}", "OK");
+            }
+
+            // Deselect the item after tapping
+            teaListView.SelectedItem = null; // Deselect the item after tap
+        }
+    }
+}

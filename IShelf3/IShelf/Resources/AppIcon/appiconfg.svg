@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<!-- Background Rectangle -->
+	<rect width="512" height="512" fill="#512BD4" />
+
+	<!-- White Circle -->
+	<circle cx="256" cy="256" r="180" fill="#ffffff" />
+
+	<!-- Centered Text -->
+	<text x="50%" y="58%" text-anchor="middle" dominant-baseline="middle" fill="#512BD4" font-size="120" font-family="Open Sans, sans-serif" font-weight="bold">IShelf</text>
+</svg>
