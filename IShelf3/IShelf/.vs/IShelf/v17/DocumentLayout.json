@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|c:\\users\\l.butkhuzi\\desktop\\interactive-shelf\\ishelf3\\ishelf\\ishelf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|solutionrelative:ishelf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|c:\\users\\l.butkhuzi\\desktop\\interactive-shelf\\ishelf3\\ishelf\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|c:\\users\\l.butkhuzi\\desktop\\interactive-shelf\\ishelf3\\ishelf\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|c:\\users\\l.butkhuzi\\desktop\\interactive-shelf\\ishelf3\\ishelf\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|c:\\users\\l.butkhuzi\\desktop\\interactive-shelf\\ishelf3\\ishelf\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|c:\\users\\l.butkhuzi\\desktop\\interactive-shelf\\ishelf3\\ishelf\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|c:\\users\\l.butkhuzi\\desktop\\interactive-shelf\\ishelf3\\ishelf\\resources\\xml\\network_security_config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F7FDB958-977D-4786-96BC-7E175D918045}|IShelf.csproj|solutionrelative:resources\\xml\\network_security_config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IShelf.csproj",
+              "DocumentMoniker": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\IShelf.csproj",
+              "RelativeDocumentMoniker": "IShelf.csproj",
+              "ToolTip": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\IShelf.csproj",
+              "RelativeToolTip": "IShelf.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-01T11:29:14.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "network_security_config.xml",
+              "DocumentMoniker": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\Resources\\xml\\network_security_config.xml",
+              "RelativeDocumentMoniker": "Resources\\xml\\network_security_config.xml",
+              "ToolTip": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\Resources\\xml\\network_security_config.xml",
+              "RelativeToolTip": "Resources\\xml\\network_security_config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-30T14:53:46.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-30T13:44:15.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:29:31.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:29:29.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAADwvxoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:36:04.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\l.butkhuzi\\Desktop\\Interactive-Shelf\\IShelf3\\IShelf\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-27T09:35:59.988Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
