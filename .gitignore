@@ -9,8 +9,3 @@
 bin/
 obj/
 
-# Ignore specific directories
-IShelf3/IShelf/Platforms/
-IShelf3/IShelf/Properties/
-IShelf3/IShelf/Resources/
-IShelf3/WorkingFrontEnd1/
