@@ -2,8 +2,7 @@
 #include <WebServer.h>
 #include <FastLED.h>
 
-// ტომას შენ მოგიტყან დედის ლაჯი, ტომას მეში დედის პირში რო შევეცი
-// Added UI enhancements for improved layout)
+// წააწოვა
 
 // Network credentials
 const char* ssid = "DWD_INT";
