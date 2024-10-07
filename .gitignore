@@ -27,3 +27,23 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# .NET MAUI and Visual Studio specific files
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+**/platforms/**
+**/Properties/**
+**/Resources/**
+**/wwwroot/**
+
+# Ignore specific file types
+*.png
+*.zip
+*.flata
+*.cache
+*.jar
+*.flat
+*.txt
